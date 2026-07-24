@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.0/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Laravel Chat Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="APP_KEY" value="base64:2fl+Ktvkfl+Fuz4Qp/A75G2RTiWVA/Z9KZF9OIBg1iU="/>
+        <env name="DB_CONNECTION" value="testbench"/>
+    </php>
+</phpunit>
