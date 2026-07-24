@@ -3,7 +3,7 @@
 ## Requirements
 
 - PHP 8.2+
-- Laravel 10 or 11
+- Laravel 11 or later
 
 ## Install
 

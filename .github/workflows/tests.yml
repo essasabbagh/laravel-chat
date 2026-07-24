@@ -14,12 +14,8 @@ jobs:
       fail-fast: true
       matrix:
         php: [8.2, 8.3]
-        laravel: [10, 11]
-        exclude:
-          - laravel: 10
-            php: 8.3
 
-    name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
+    name: PHP ${{ matrix.php }}
 
     steps:
       - uses: actions/checkout@v4
@@ -34,7 +30,6 @@ jobs:
       - name: Install dependencies
         run: |
           composer config --no-plugins allow-plugins.php-http/discovery false
-          composer require --no-update laravel/framework:^${{ matrix.laravel }}.0
           composer update --prefer-stable --no-interaction
 
       - name: Pint
