@@ -1,8 +1,8 @@
 # Laravel Chat
 
-[![Tests](https://github.com/essasabbgah/laravel-chat/actions/workflows/tests.yml/badge.svg)](https://github.com/essasabbgah/laravel-chat/actions/workflows/tests.yml)
-[![PHP Version Require](https://poser.pugx.org/essasabbgah/laravel-chat/require/php)](https://packagist.org/packages/essasabbgah/laravel-chat)
-[![Total Downloads](https://poser.pugx.org/essasabbgah/laravel-chat/downloads)](https://packagist.org/packages/essasabbgah/laravel-chat)
+[![Tests](https://github.com/essasabbagh/laravel-chat/actions/workflows/tests.yml/badge.svg)](https://github.com/essasabbagh/laravel-chat/actions/workflows/tests.yml)
+[![PHP Version Require](https://poser.pugx.org/essasabbagh/laravel-chat/require/php)](https://packagist.org/packages/essasabbagh/laravel-chat)
+[![Total Downloads](https://poser.pugx.org/essasabbagh/laravel-chat/downloads)](https://packagist.org/packages/essasabbagh/laravel-chat)
 
 Multi-tenant chat package for Laravel with Reverb broadcasting, attachments, reactions, presence, and Flutter support.
 
